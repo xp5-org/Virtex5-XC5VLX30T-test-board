@@ -1,4 +1,11 @@
-23334526129842520
+23339692505322974
+16DIP_74ACT
+PDIP20_26P42X6P6_ONS
+
+74ACT245PC 
+0
+20
+20
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63623,9 +63630,9 @@ Yellow 5381 Series LED
 2
 2
 Library
-665-FBGA_XIL
+digikey665-FBGA_XIL
 
-XC5VLX30T-1FFG665I 
+XC5VLX30T-1FFG665C 
 0
 665
 665
@@ -95339,3 +95346,17 @@ Varistor VF
 0
 2
 2
+lm3150Library
+MXA14A
+
+LM3150MHX/NOPB 
+0
+15
+15
+test_bufferchip_libraryfootprint
+TSSOP20_4P4X6P5_ONS
+
+74ACT245MTC 
+0
+20
+20

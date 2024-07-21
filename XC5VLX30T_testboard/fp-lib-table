@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "lm3150Library")(type "KiCad")(uri "C:/GitHub/Virtex5-XC5VLX30T-test-board/lm3150Library.pretty")(options "")(descr ""))
+  (lib (name "test_bufferchip_libraryfootprint")(type "KiCad")(uri "${KIPRJMOD}/test_bufferchip_libraryfootprint.pretty")(options "")(descr ""))
+  (lib (name "16DIP_74ACT")(type "KiCad")(uri "${KIPRJMOD}/16DIP_74ACT.pretty")(options "")(descr ""))
+)
