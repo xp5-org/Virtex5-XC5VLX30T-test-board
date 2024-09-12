@@ -44511,7 +44511,7 @@
 			)
 		)
 	)
-	(global_label "IO_L13P_15"
+	(global_label "IO_L15P_15"
 		(shape bidirectional)
 		(at 496.57 113.03 0)
 		(fields_autoplaced yes)
