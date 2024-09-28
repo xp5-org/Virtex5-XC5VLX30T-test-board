@@ -9,3 +9,4 @@ JTAG pins on the rear, clock and capacitors on the bottom GND plane side
 
 ![XC5VLX30T_testboardfront](https://github.com/user-attachments/assets/74a39f16-9ddc-4dfe-a81c-4f9863f8307c)
 ![XC5VLX30T_testboardrear](https://github.com/user-attachments/assets/40757ac2-761b-4d55-a766-2e01861137bb)
+![a](https://github.com/user-attachments/assets/3d6ff9e0-aa1a-4294-a354-318e29acd8c1)
