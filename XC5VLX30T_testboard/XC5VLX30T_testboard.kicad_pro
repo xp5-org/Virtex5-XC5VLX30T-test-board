@@ -493,7 +493,7 @@
       "plot": "C:/Users/kyle/Desktop/mytest/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Users/kyle/Desktop/XC5VLX30T_testboard.step",
       "svg": "../../../../Desktop/",
       "vrml": ""
     },
