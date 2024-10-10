@@ -4,4 +4,6 @@
   (lib (name "lm3150Library")(type "KiCad")(uri "C:/GitHub/Virtex5-XC5VLX30T-test-board/lm3150Library.pretty")(options "")(descr ""))
   (lib (name "test_bufferchip_libraryfootprint")(type "KiCad")(uri "${KIPRJMOD}/test_bufferchip_libraryfootprint.pretty")(options "")(descr ""))
   (lib (name "16DIP_74ACT")(type "KiCad")(uri "${KIPRJMOD}/16DIP_74ACT.pretty")(options "")(descr ""))
+  (lib (name "virtex5_buck_footprint")(type "KiCad")(uri "${KIPRJMOD}/virtex5_buck_footprint.pretty")(options "")(descr ""))
+  (lib (name "pizero_23x58_mountholes")(type "KiCad")(uri "${KIPRJMOD}/pizero_23x58_mountholes.pretty")(options "")(descr ""))
 )
