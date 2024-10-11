@@ -35569,6 +35569,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 469.9) (xy 69.85 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cd4ab5-a858-4e84-be92-65ae91383dd8")
+	)
+	(wire
+		(pts
 			(xy 260.35 119.38) (xy 264.16 119.38)
 		)
 		(stroke
@@ -37146,16 +37156,6 @@
 			(type default)
 		)
 		(uuid "b363ae2a-91c8-43a9-a687-d50697ee20e2")
-	)
-	(wire
-		(pts
-			(xy 214.63 497.84) (xy 226.06 497.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d25bc7-680a-442e-bc87-952622df3cae")
 	)
 	(wire
 		(pts
@@ -40342,6 +40342,28 @@
 		(uuid "22fdebb4-be7a-4a9a-b2e4-6dc0170b614b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.5628 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_AUX1"
+		(shape input)
+		(at 69.85 469.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "235467b6-452a-48d8-9d6f-493c7269bb15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.209 469.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48988,28 +49010,6 @@
 		(uuid "ca55b24b-b258-47f3-a15d-0abb18cdb07b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 987.9231 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK_AUX1"
-		(shape input)
-		(at 226.06 497.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cafb8f2a-b16d-4a32-9144-177acd8474f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.419 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63301,7 +63301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 72.39 449.58 0)
 			(effects
 				(font
@@ -63833,7 +63833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 132.08 443.23 0)
 			(effects
 				(font
@@ -64968,7 +64968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 95.25 440.69 0)
 			(effects
 				(font
@@ -72244,6 +72244,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
+		(at 469.9 596.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d0ad340-f06a-4e8a-b87e-faacead2f0a8")
+		(property "Reference" "J12"
+			(at 471.17 588.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "pi_zero_footprint_placeholder"
+			(at 471.17 590.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pizero_23x58_mountholes:23x58pizero"
+			(at 469.9 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 469.9 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 469.9 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "344bb651-b7a4-4947-ab2e-2121d0bc338d")
+		)
+		(pin "2"
+			(uuid "27c7fd05-252f-41b4-9739-f4611061728d")
+		)
+		(pin "4"
+			(uuid "62a83f18-7f3f-4953-8bb7-83e93840d156")
+		)
+		(pin "5"
+			(uuid "7b72f885-a0f5-4c1f-a566-c8cb984a03ed")
+		)
+		(pin "6"
+			(uuid "a0455274-4625-4948-ba7a-60aaef9988ac")
+		)
+		(pin "1"
+			(uuid "df9f390b-913c-44d6-99ab-bb2af76ee487")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 125.73 270)
 		(unit 1)
@@ -73679,7 +73759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 129.54 439.42 0)
 			(effects
 				(font
@@ -74484,7 +74564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 69.85 444.5 0)
 			(effects
 				(font
@@ -75661,6 +75741,73 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 469.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80b6a0df-aed5-433f-aee7-3b431162177a")
+		(property "Reference" "TP5"
+			(at 63.5 465.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 63.5 467.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
+			(at 66.04 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a45c29db-0353-414f-bc48-c4cfc0c1c866")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -76965,86 +77112,6 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
-		(at 443.23 600.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94e5f5dd-8161-438e-bf3a-45a2ec7a586b")
-		(property "Reference" "J10"
-			(at 444.5 591.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "pi_zero_footprint_placeholder"
-			(at 444.5 594.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pizero_23x58_mountholes:23x58pizero"
-			(at 443.23 600.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 443.23 600.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 443.23 600.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "825e5f97-1f1d-441c-b400-ae3a05736c73")
-		)
-		(pin "2"
-			(uuid "59d7c410-2f11-4f74-8f22-e82573d0c454")
-		)
-		(pin "4"
-			(uuid "78039b49-c12d-4766-8878-e1a74b089c0f")
-		)
-		(pin "5"
-			(uuid "5db41b91-a0c8-41ea-a035-5f8cef0874ad")
-		)
-		(pin "6"
-			(uuid "611548b6-3e8d-41eb-8a9c-f3a723718388")
-		)
-		(pin "1"
-			(uuid "f9c0a678-5e34-49b0-a91a-cda58a4b632c")
-		)
-		(instances
-			(project "XC5VLX30T_testboard"
-				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -78678,73 +78745,6 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 214.63 497.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a951ca4f-0cf8-4f36-83ea-5362267b69fe")
-		(property "Reference" "TP5"
-			(at 217.17 493.2679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 217.17 495.8079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 219.71 497.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 497.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 214.63 497.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "755bb8a8-c7b5-4853-9cab-1a53fa0912ef")
-		)
-		(instances
-			(project "XC5VLX30T_testboard"
-				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -82189,7 +82189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 67.31 439.42 0)
 			(effects
 				(font
@@ -84436,7 +84436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 76.2 455.93 0)
 			(effects
 				(font
@@ -84736,7 +84736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "virtex5_buck_footprint:thisone_TestPoint_Pad_D1.0mm"
 			(at 127 450.85 0)
 			(effects
 				(font

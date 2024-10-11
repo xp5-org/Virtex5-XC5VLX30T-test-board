@@ -1,4 +1,4 @@
-23789416489373092
+23794602445860050
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96535,6 +96535,27 @@ pizero_23x58_mountholes
 
 0
 4
+1
+testpoint_pad07_08mm
+mytestpoint_07_08mm
+
+
+0
+1
+1
+testpoint_pad07_08mm
+virtex_TestPoint_Pad_0.7x0.7
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+0
+0
+virtex5_buck_footprint
+thisone_TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
 1
 virtex5_buck_footprint
 virtex5_buck
