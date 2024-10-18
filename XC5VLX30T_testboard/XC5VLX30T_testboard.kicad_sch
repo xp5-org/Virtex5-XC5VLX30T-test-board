@@ -80967,7 +80967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm"
 			(at 88.9 525.78 0)
 			(effects
 				(font
@@ -81154,7 +81154,7 @@
 			(uuid "9df9a976-6245-45ae-84fe-8fff556e280d")
 		)
 		(instances
-			(project ""
+			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "J15")
 					(unit 1)
@@ -81700,7 +81700,7 @@
 			(uuid "684b8156-81c6-47c2-a270-0cf0b243eaf5")
 		)
 		(instances
-			(project ""
+			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "J9")
 					(unit 1)
@@ -84206,7 +84206,7 @@
 			(uuid "c2d3d936-aee5-4021-89b5-40093666b705")
 		)
 		(instances
-			(project ""
+			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "J11")
 					(unit 1)
@@ -84614,7 +84614,7 @@
 			(uuid "00578f4a-8271-435d-ac86-639cb39e6237")
 		)
 		(instances
-			(project ""
+			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "TP1")
 					(unit 1)
