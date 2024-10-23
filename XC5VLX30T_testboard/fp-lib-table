@@ -7,4 +7,5 @@
   (lib (name "virtex5_buck_footprint")(type "KiCad")(uri "${KIPRJMOD}/virtex5_buck_footprint.pretty")(options "")(descr ""))
   (lib (name "pizero_23x58_mountholes")(type "KiCad")(uri "${KIPRJMOD}/pizero_23x58_mountholes.pretty")(options "")(descr ""))
   (lib (name "testpoint_pad07_08mm")(type "KiCad")(uri "${KIPRJMOD}/testpoint_pad07_08mm.pretty")(options "")(descr ""))
+  (lib (name "qrcode")(type "KiCad")(uri "${KIPRJMOD}/qrcode.pretty")(options "")(descr ""))
 )
