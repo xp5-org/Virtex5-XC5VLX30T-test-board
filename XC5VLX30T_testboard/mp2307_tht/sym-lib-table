@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MP2307")(type "KiCad")(uri "C:/GitHub/Virtex5-XC5VLX30T-test-board/XC5VLX30T_testboard/buck_converter_mp2307/2024-10-07_20-14-07.kicad_sym")(options "")(descr ""))
+)
