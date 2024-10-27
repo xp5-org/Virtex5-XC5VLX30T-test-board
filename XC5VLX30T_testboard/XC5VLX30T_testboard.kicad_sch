@@ -64227,9 +64227,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TCK"
 			(at 129.54 441.1979 0)
 			(effects
 				(font
@@ -65532,9 +65533,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TMS"
 			(at 91.948 443.23 90)
 			(effects
 				(font
@@ -74559,9 +74561,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TDO"
 			(at 127 437.3879 0)
 			(effects
 				(font
@@ -77067,7 +77070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b6a0df-aed5-433f-aee7-3b431162177a")
-		(property "Reference" "TP5"
+		(property "Reference" "P_GC1"
 			(at 63.5 465.3279 0)
 			(effects
 				(font
@@ -77118,7 +77121,7 @@
 		(instances
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
-					(reference "TP5")
+					(reference "P_GC1")
 					(unit 1)
 				)
 			)
@@ -77266,7 +77269,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "841cfe96-832a-4d53-aa90-0ce22b1c339f")
 		(property "Reference" "TP10"
 			(at 57.15 465.3279 0)
@@ -77275,10 +77277,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 57.15 467.8679 0)
+		(property "Value" "GND"
+			(at 52.07 464.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86714,9 +86717,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TDI"
 			(at 132.08 447.0399 90)
 			(effects
 				(font
