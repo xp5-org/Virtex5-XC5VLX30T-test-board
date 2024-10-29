@@ -35190,7 +35190,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 571.5) (xy 83.82 575.31)
+			(xy 53.34 568.96) (xy 53.34 572.77)
 		)
 		(stroke
 			(width 0)
@@ -35377,16 +35377,6 @@
 			(type default)
 		)
 		(uuid "17bd287b-fcaa-4c7a-a07c-a822919285c3")
-	)
-	(wire
-		(pts
-			(xy 99.06 582.93) (xy 99.06 588.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d3fdf7-becc-49c9-a69d-8dfa1bf8a4a1")
 	)
 	(wire
 		(pts
@@ -35590,7 +35580,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 571.5) (xy 59.69 575.31)
+			(xy 210.82 572.77) (xy 210.82 576.58)
 		)
 		(stroke
 			(width 0)
@@ -35707,16 +35697,6 @@
 			(type default)
 		)
 		(uuid "312cf719-5833-4775-8d03-68df2de1fb72")
-	)
-	(wire
-		(pts
-			(xy 99.06 571.5) (xy 99.06 575.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a23575-e650-4ed2-8a6a-a617f4c6cb8e")
 	)
 	(wire
 		(pts
@@ -36410,6 +36390,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 567.69) (xy 69.85 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae065d7-d83a-44fa-b919-8d27ee110832")
+	)
+	(wire
+		(pts
 			(xy 304.8 86.36) (xy 287.02 86.36)
 		)
 		(stroke
@@ -36550,7 +36540,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 582.93) (xy 113.03 588.01)
+			(xy 82.55 580.39) (xy 82.55 585.47)
 		)
 		(stroke
 			(width 0)
@@ -36580,7 +36570,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 582.93) (xy 59.69 588.01)
+			(xy 210.82 584.2) (xy 210.82 589.28)
 		)
 		(stroke
 			(width 0)
@@ -37170,6 +37160,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 579.12) (xy 69.85 584.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1b82c2-0826-4880-a911-4e7733d1eeb4")
+	)
+	(wire
+		(pts
 			(xy 60.96 473.71) (xy 54.61 473.71)
 		)
 		(stroke
@@ -37330,7 +37330,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 582.93) (xy 83.82 588.01)
+			(xy 53.34 580.39) (xy 53.34 585.47)
 		)
 		(stroke
 			(width 0)
@@ -37380,7 +37380,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 582.93) (xy 125.73 588.01)
+			(xy 95.25 580.39) (xy 95.25 585.47)
 		)
 		(stroke
 			(width 0)
@@ -37620,7 +37620,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 571.5) (xy 113.03 575.31)
+			(xy 82.55 568.96) (xy 82.55 572.77)
 		)
 		(stroke
 			(width 0)
@@ -38050,7 +38050,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 571.5) (xy 125.73 575.31)
+			(xy 95.25 568.96) (xy 95.25 572.77)
 		)
 		(stroke
 			(width 0)
@@ -38150,7 +38150,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 582.93) (xy 71.12 588.01)
+			(xy 222.25 584.2) (xy 222.25 589.28)
 		)
 		(stroke
 			(width 0)
@@ -38600,7 +38600,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 571.5) (xy 71.12 575.31)
+			(xy 222.25 572.77) (xy 222.25 576.58)
 		)
 		(stroke
 			(width 0)
@@ -38810,7 +38810,7 @@
 	)
 	(rectangle
 		(start 148.59 426.72)
-		(end 241.3 480.06)
+		(end 299.72 480.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -39190,6 +39190,28 @@
 			)
 		)
 	)
+	(global_label "VCCO"
+		(shape input)
+		(at 267.8461 445.0432 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0395797c-bebc-46c6-878f-6e673f35319f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.8461 437.0989 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO_L15P_13"
 		(shape input)
 		(at 561.34 642.62 270)
@@ -39412,7 +39434,7 @@
 	)
 	(global_label "VccAUX"
 		(shape input)
-		(at 59.69 571.5 90)
+		(at 210.82 572.77 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -39422,7 +39444,7 @@
 		)
 		(uuid "08c6a4d4-3dc6-4b88-99dc-98c4e1969491")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 561.6204 90)
+			(at 210.82 562.8904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41898,28 +41920,6 @@
 	)
 	(global_label "VccINT"
 		(shape input)
-		(at 99.06 571.5 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f356271-c656-434e-be50-567808b63d71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 562.3461 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VccINT"
-		(shape input)
 		(at 716.28 260.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -43086,7 +43086,7 @@
 	)
 	(global_label "VccINT"
 		(shape input)
-		(at 125.73 571.5 90)
+		(at 95.25 568.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43096,7 +43096,7 @@
 		)
 		(uuid "56cbdbc2-c3b9-4d61-9a43-c717a9b2a35c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 562.3461 90)
+			(at 95.25 559.8061 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43460,7 +43460,7 @@
 	)
 	(global_label "VccINT"
 		(shape input)
-		(at 113.03 571.5 90)
+		(at 82.55 568.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43470,7 +43470,7 @@
 		)
 		(uuid "5ce694a0-4780-4b04-bbd8-83baf765d6f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 562.3461 90)
+			(at 82.55 559.8061 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46560,6 +46560,28 @@
 			)
 		)
 	)
+	(global_label "VCCO"
+		(shape input)
+		(at 250.19 444.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97cb6113-360a-4053-ad17-cb39825e3358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.19 436.5557 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO_L13N_11"
 		(shape input)
 		(at 577.85 515.62 0)
@@ -47596,7 +47618,7 @@
 	)
 	(global_label "VccINT"
 		(shape input)
-		(at 83.82 571.5 90)
+		(at 53.34 568.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -47606,7 +47628,7 @@
 		)
 		(uuid "a9a0ab07-c7bf-40d8-a1f5-f916f5007ca1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 562.3461 90)
+			(at 53.34 559.8061 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47722,6 +47744,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VccINT"
+		(shape input)
+		(at 118.11 579.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac2010ed-8756-4447-9172-7c5f2bff093a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 569.9661 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -48848,6 +48892,28 @@
 			)
 		)
 	)
+	(global_label "VccINT"
+		(shape input)
+		(at 69.85 567.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bddd6532-feed-4660-8315-5b698888bed8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 558.5361 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO_L7N_11"
 		(shape input)
 		(at 693.42 54.61 0)
@@ -49658,6 +49724,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCCO"
+		(shape input)
+		(at 281.94 444.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3baf9dd-bc1f-49a8-a25c-af1fada3129c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.94 436.5557 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -51226,7 +51314,7 @@
 	)
 	(global_label "VccAUX"
 		(shape input)
-		(at 71.12 571.5 90)
+		(at 222.25 572.77 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -51236,7 +51324,7 @@
 		)
 		(uuid "f6b91873-5395-47aa-99d1-e860386ea688")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 561.6204 90)
+			(at 222.25 562.8904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51733,7 +51821,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 579.12 0)
+		(at 222.25 580.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51741,7 +51829,7 @@
 		(dnp no)
 		(uuid "003189a7-51ec-496e-9794-15e2d5975812")
 		(property "Reference" "C5"
-			(at 74.93 577.8499 0)
+			(at 226.06 579.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51750,7 +51838,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 72.898 582.422 0)
+			(at 224.028 583.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51759,7 +51847,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
-			(at 72.0852 582.93 0)
+			(at 223.2152 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51768,7 +51856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 579.12 0)
+			(at 222.25 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51777,7 +51865,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 71.12 579.12 0)
+			(at 222.25 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54061,6 +54149,143 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 69.85 584.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "010621c0-f0ad-42d1-bc5f-875ded56431d")
+		(property "Reference" "#PWR0153"
+			(at 69.85 590.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 589.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c808d057-3b28-4a35-9424-6103e4025a90")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.19 448.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02507a67-ce9e-4ecb-a85d-8cf33db5187a")
+		(property "Reference" "C22"
+			(at 254 447.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 254 449.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+			(at 251.1552 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.19 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0270d95-6f7b-454a-8690-d17a883895d0")
+		)
+		(pin "2"
+			(uuid "b2393ff9-5544-4add-9b07-ba3bf3f2535f")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 193.04 468.63 0)
 		(mirror y)
 		(unit 1)
@@ -54656,6 +54881,73 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 586.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08047e43-dded-46c6-a3e1-fd1b879d27f9")
+		(property "Reference" "#PWR0266"
+			(at 118.11 593.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 591.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7490e73a-50db-4c10-ab4f-0abbd3cd982e")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "#PWR0266")
 					(unit 1)
 				)
 			)
@@ -65102,6 +65394,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 281.94 452.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2457a5a3-fd1f-422b-83f5-02323ec826ca")
+		(property "Reference" "#PWR0265"
+			(at 281.94 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7060c363-ab05-4f26-a59b-80e5a213ef7e")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 513.08 0)
 		(unit 1)
@@ -65798,6 +66157,76 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 267.8461 448.8532 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b47b7d7-ac3f-4d84-9945-aba0ad14768e")
+		(property "Reference" "C23"
+			(at 271.6561 447.5831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 271.6561 450.1231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+			(at 268.8113 452.6632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.8461 448.8532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 267.8461 448.8532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1b238db-892d-4999-93e9-65eb3d3ee65a")
+		)
+		(pin "2"
+			(uuid "2498a6e3-1b14-4461-8fe7-45a1398aba78")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -68600,7 +69029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 588.01 0)
+		(at 210.82 589.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -68610,7 +69039,7 @@
 		(fields_autoplaced yes)
 		(uuid "327c3fcc-6983-4a06-8d90-9b259232f144")
 		(property "Reference" "#PWR0262"
-			(at 59.69 594.36 0)
+			(at 210.82 595.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68619,7 +69048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 593.09 0)
+			(at 210.82 594.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68627,7 +69056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 588.01 0)
+			(at 210.82 589.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68636,7 +69065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 588.01 0)
+			(at 210.82 589.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68645,7 +69074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 588.01 0)
+			(at 210.82 589.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69469,7 +69898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 588.01 0)
+		(at 53.34 585.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -69479,7 +69908,7 @@
 		(fields_autoplaced yes)
 		(uuid "398304b2-506c-4c1c-a310-f4b1a6b019aa")
 		(property "Reference" "#PWR0192"
-			(at 83.82 594.36 0)
+			(at 53.34 591.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69488,7 +69917,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 593.09 0)
+			(at 53.34 590.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69496,7 +69925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 588.01 0)
+			(at 53.34 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69505,7 +69934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 588.01 0)
+			(at 53.34 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69514,7 +69943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 588.01 0)
+			(at 53.34 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73032,7 +73461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
 			(at 194.0052 461.01 0)
 			(effects
 				(font
@@ -74157,6 +74586,73 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.8461 452.6632 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c474f08-5f36-4bda-863a-59bb30077c29")
+		(property "Reference" "#PWR0264"
+			(at 267.8461 459.0132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.8461 457.7432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.8461 452.6632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.8461 452.6632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.8461 452.6632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "528c3402-1d77-4f79-9838-20eafea524f8")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "#PWR0264")
 					(unit 1)
 				)
 			)
@@ -75402,7 +75898,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 579.12 0)
+		(at 53.34 576.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -75410,7 +75906,7 @@
 		(dnp no)
 		(uuid "6718ce8c-e881-46b9-be85-a1f2bec9c00c")
 		(property "Reference" "C6"
-			(at 87.63 577.8499 0)
+			(at 57.15 575.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75419,7 +75915,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 85.598 583.438 0)
+			(at 55.118 580.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75428,7 +75924,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
-			(at 84.7852 582.93 0)
+			(at 54.3052 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75437,7 +75933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 579.12 0)
+			(at 53.34 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75446,7 +75942,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 579.12 0)
+			(at 53.34 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76876,7 +77372,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 579.12 0)
+		(at 95.25 576.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -76885,7 +77381,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bcfd520-fa7b-406e-90aa-a0f2beab1873")
 		(property "Reference" "C3"
-			(at 129.54 577.8499 0)
+			(at 99.06 575.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76894,7 +77390,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 129.54 580.3899 0)
+			(at 99.06 577.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76902,8 +77398,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
-			(at 126.6952 582.93 0)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+			(at 96.2152 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76912,7 +77408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 579.12 0)
+			(at 95.25 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76921,7 +77417,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 579.12 0)
+			(at 95.25 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77416,7 +77912,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 579.12 0)
+		(at 210.82 580.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -77424,7 +77920,7 @@
 		(dnp no)
 		(uuid "8727abd4-5831-44ed-b746-3686745abb94")
 		(property "Reference" "C21"
-			(at 63.5 577.8499 0)
+			(at 214.63 579.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77433,7 +77929,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 61.468 582.422 0)
+			(at 212.598 583.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77442,7 +77938,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
-			(at 60.6552 582.93 0)
+			(at 211.7852 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77451,7 +77947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 579.12 0)
+			(at 210.82 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77460,7 +77956,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 579.12 0)
+			(at 210.82 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77750,7 +78246,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 588.01 0)
+		(at 222.25 589.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -77760,7 +78256,7 @@
 		(fields_autoplaced yes)
 		(uuid "89f29f8f-0946-4acb-b4d3-cafd26f7dd3d")
 		(property "Reference" "#PWR0194"
-			(at 71.12 594.36 0)
+			(at 222.25 595.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77769,7 +78265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 593.09 0)
+			(at 222.25 594.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77777,7 +78273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 588.01 0)
+			(at 222.25 589.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77786,7 +78282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 588.01 0)
+			(at 222.25 589.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77795,7 +78291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 588.01 0)
+			(at 222.25 589.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77877,6 +78373,76 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 281.94 448.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb47197-5503-4067-a5ef-2170c42a121e")
+		(property "Reference" "C24"
+			(at 285.75 447.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 285.75 449.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+			(at 282.9052 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 281.94 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "402b5136-f318-4529-96ae-d14a5de31743")
+		)
+		(pin "2"
+			(uuid "30ea6844-c1c1-4b7e-ac23-0b9283ac57bd")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -78149,7 +78715,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 579.12 0)
+		(at 82.55 576.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78158,7 +78724,7 @@
 		(fields_autoplaced yes)
 		(uuid "9053d509-ac1e-488d-963d-4dbc1dc9688c")
 		(property "Reference" "C2"
-			(at 116.84 577.8499 0)
+			(at 86.36 575.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78167,7 +78733,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 116.84 580.3899 0)
+			(at 86.36 577.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78175,8 +78741,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
-			(at 113.9952 582.93 0)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+			(at 83.5152 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78185,7 +78751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 579.12 0)
+			(at 82.55 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78194,7 +78760,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 579.12 0)
+			(at 82.55 576.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79924,6 +80490,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 250.19 452.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a55dac06-7a05-423c-8cad-e6277553a99a")
+		(property "Reference" "#PWR0263"
+			(at 250.19 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e1db780-5832-426c-9599-cc28d1f8e2ee")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x35_Pin")
 		(at 572.77 487.68 0)
 		(unit 1)
@@ -80151,6 +80784,76 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 582.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8407140-9ee9-42bd-8180-8a858e854207")
+		(property "Reference" "C25"
+			(at 121.92 581.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 121.92 584.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+			(at 119.0752 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 582.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 582.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c746e29d-07e6-4a3d-9372-9e939cfa7d6c")
+		)
+		(pin "2"
+			(uuid "1a1c3121-b958-477f-8a3a-49d4d4ad89fa")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -81386,73 +82089,6 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 588.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b582560d-9d45-4424-aec9-9b247ff1cc32")
-		(property "Reference" "#PWR0153"
-			(at 99.06 594.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 593.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 588.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 588.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 588.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d7df7a1-99b9-4fe4-820e-d38768f1e08a")
-		)
-		(instances
-			(project "XC5VLX30T_testboard"
-				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
-					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -83079,7 +83715,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 588.01 0)
+		(at 95.25 585.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -83089,7 +83725,7 @@
 		(fields_autoplaced yes)
 		(uuid "c47d24ab-5c55-4b5e-a33e-014a19a3120d")
 		(property "Reference" "#PWR0155"
-			(at 125.73 594.36 0)
+			(at 95.25 591.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83098,7 +83734,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 593.09 0)
+			(at 95.25 590.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83106,7 +83742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 588.01 0)
+			(at 95.25 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83115,7 +83751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 588.01 0)
+			(at 95.25 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83124,7 +83760,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 588.01 0)
+			(at 95.25 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84907,6 +85543,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 69.85 575.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9df1c4-29f5-4751-92e6-e44efd4fbd89")
+		(property "Reference" "C1"
+			(at 73.66 574.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 73.66 576.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
+			(at 70.8152 579.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6596c199-4067-46e6-82b3-944827eadbe7")
+		)
+		(pin "2"
+			(uuid "b504594b-537c-403f-8ffd-8550eec733b8")
+		)
+		(instances
+			(project "XC5VLX30T_testboard"
+				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 231.14 270)
 		(unit 1)
@@ -85043,7 +85749,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 588.01 0)
+		(at 82.55 585.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -85053,7 +85759,7 @@
 		(fields_autoplaced yes)
 		(uuid "e06adb34-5032-4423-8dfe-069a69a6ab4f")
 		(property "Reference" "#PWR0154"
-			(at 113.03 594.36 0)
+			(at 82.55 591.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85062,7 +85768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 593.09 0)
+			(at 82.55 590.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85070,7 +85776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 588.01 0)
+			(at 82.55 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85079,7 +85785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 588.01 0)
+			(at 82.55 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85088,7 +85794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 588.01 0)
+			(at 82.55 585.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85303,76 +86009,6 @@
 			(project "XC5VLX30T_testboard"
 				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
 					(reference "#PWR0236")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 579.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3959af1-37f8-450f-bcc1-87a739df45b8")
-		(property "Reference" "C1"
-			(at 102.87 577.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470uF"
-			(at 102.87 580.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 100.0252 582.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 579.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16ae7293-1298-4b55-994a-a9d770436317")
-		)
-		(pin "2"
-			(uuid "25b86b8c-449f-4cdc-811b-89d6aa2e9469")
-		)
-		(instances
-			(project "XC5VLX30T_testboard"
-				(path "/67cccbfc-a73c-4a35-9756-6da624b7ab36"
-					(reference "C1")
 					(unit 1)
 				)
 			)
