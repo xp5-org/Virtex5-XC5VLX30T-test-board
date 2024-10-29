@@ -1,0 +1,5 @@
+run with copper layers name as input and search for invalid
+any via without a sement starting or ending on L1 is marked invalid 
+
+$ python3 mycheck.py XC5VLX30T_testboard.kicad_pcb F.Cu In1.Cu In2.Cu B.Cu | grep -i invalid
+(157.3979, 146.0729) Invalid
