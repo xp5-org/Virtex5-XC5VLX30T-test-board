@@ -23,7 +23,7 @@ For this 4-layer version, i had pcbway build it and i put together a youtube vid
 <br><br>
 
 Current Status:
-- this is the basic idea of what i'm working with. a Xilinx programmer is $30+ and a raspi with XC3SPROG is $5
+- this is the basic idea of what i'm working with. a Xilinx programmer is $30+ and a raspi with [XC3SPROG](https://xc3sprog.sourceforge.net/hardware.php) is $5
 - the raspi will have to live on this device and use the jtag header to program the virtex5 on each use or powerup.
 - There is a lot of I/O, but theres nothing else. no ram, no EPROM, no flash. 
 ![rough_IDEA](https://github.com/user-attachments/assets/a32fb95d-40cd-4d11-b74d-ede6dcb3908c)
