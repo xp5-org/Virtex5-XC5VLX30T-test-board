@@ -18,6 +18,9 @@ If the scrap-recovered chips i have respond & work, this design could be easily 
 
 For this 4-layer version, i had pcbway build it and i put together a youtube video of what it looks like here 
 - Current board revision (Built by PCBWay) https://www.youtube.com/watch?v=_ErQVJeHTFE
+- PCBWay by default offered 1oz copper on inner & outer layers, which gave more current carrying capability for VCCINT and VCCO
+<br><br>
+Next steps for testing:
 - the next step is to reball these, solder them and test. 
   
 <br><br>
