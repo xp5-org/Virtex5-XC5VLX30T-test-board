@@ -5,7 +5,8 @@ This is a work in progress, i will update again after completing the bga reball 
 This projects goal was to fan out as many I/O pins as possible on the Virtex-5 665 BGA , 1mm pitch footprint, using a standard PCB service without any special work. This means:
 - 0.3 drill size vias
 - 0.15mm track spacing & track width
-- 4 layers
+- 0.2mm copper-to-hole clearance
+- 4 layers, 1oz
 - NO microvia, blind via, buried via
 - NO via-in-pad
 
@@ -19,9 +20,7 @@ If the scrap-recovered chips i have respond & work, this design could be easily 
 For this 4-layer version, i had pcbway build it and i put together a youtube video of what it looks like here 
 - Current board revision (Built by PCBWay) https://www.youtube.com/watch?v=_ErQVJeHTFE
 - PCBWay by default offered 1oz copper on inner & outer layers, which gave more current carrying capability for VCCINT and VCCO
-<br><br>
-Next steps for testing:
-- the next step is to reball these, solder them and test. 
+
   
 <br><br>
 
@@ -38,7 +37,12 @@ Power:  The virtex5 here needs 1.0V, 2.5V, and 3.3V
 - SMD version : https://github.com/xp5-org/Virtex5-XC5VLX30T-test-board/tree/main/XC5VLX30T_testboard/buck_converter_mp2307
 - Through-hole version: https://github.com/xp5-org/Virtex5-XC5VLX30T-test-board/tree/main/XC5VLX30T_testboard/mp2307_tht
 
+<br><br>
 
+Next steps for testing:
+- build the MP2307 buck converters
+- reball the virtex5's using 0.6mm lead balls
+  
 <br><br><br><br>
 kicad screenshots of the various layers
 <br><br>
