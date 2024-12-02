@@ -1,9 +1,10 @@
 # 4 layer test-board for the XC5VLX30T-1FF665I-ND
 schematic & pcb designed in Kicad 8
+>This is a work in progress, i will update again after completing the bga reball work and confirming if the chips respond to jtag
+>- capcaitor footprints not finalized (may need more depending on what testing reveals)
 <br><br>
-This is a work in progress, i will update again after completing the bga reball work and confirming if the chips respond to jtag
-<br><br>
-This project's goal was to fan out as many I/O pins as possible on the Virtex-5 665 BGA , 1mm pitch footprint, using a standard PCB service without any special work. This means:
+
+This project's goal is to fan out as many I/O pins as possible on the Virtex-5 665 BGA , 1mm pitch footprint, using a standard PCB service without any special work. This means:
 - 0.3 drill size vias
 - 0.15mm track spacing & track width
 - 0.2mm copper-to-hole clearance
