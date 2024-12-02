@@ -1,4 +1,5 @@
-a 4 layer test-board for the XC5VLX30T-1FF665I-ND using Kicad 8
+# 4 layer test-board for the XC5VLX30T-1FF665I-ND
+schematic & pcb designed in Kicad 8
 <br><br>
 This is a work in progress, i will update again after completing the bga reball work and confirming if the chips respond to jtag
 <br><br>
@@ -17,19 +18,20 @@ I initially planned to interface this Virtex-5 FPGA with some 3.3v cmos buffers 
 If the scrap-recovered chips i have respond & work, this design could be easily converted to a 6-layer to improve power plane & signal
 <br><br>
 
-For this 4-layer version, i had PCBWay build it and i put together a youtube video of what it looks like here
-- Current pcbway board - https://www.youtube.com/watch?v=_ErQVJeHTFE , here I am showing some close up photos reviewing what was built and received. In this video i can confirmwhat pcbway's capabilities are on standard pcb service, specifically in this board design there is some critical areas around hole drill precision & plating for the vias. the precision by pcbway will allow to use 0.15mm copper clearance and can see in this video link
+# pcb ordering & build
+For this 4-layer version, i had [PCBWay](https://www.pcbway.com/) build it and i put together a youtube video of what it looks like
+- Current pcbway board - https://www.youtube.com/watch?v=_ErQVJeHTFE , here I am showing some close up photos reviewing what was built and received. In this video i can confirm what pcbway's capabilities are on standard pcb service, specifically in this board design there is some critical areas around hole drill precision & plating for the vias. the precision by pcbway will allow to use 0.15mm copper clearance in this design and can see in this video link.
 - PCBWay by default offered 1oz copper on inner & outer layers, which gave more current carrying capability for VCCINT and VCCO
 - order sheet for PCBWay - https://github.com/xp5-org/Virtex5-XC5VLX30T-test-board/blob/main/pcbway_4layer_order.png , this is using default options for 4-layer with the exception of trace width & spacing has been specified to 5mil
-<img width="955" alt="Screenshot 2024-12-02 at 1 48 46 AM" src="https://github.com/user-attachments/assets/aac8b5e0-8785-4a2b-a3d7-b07fbdbf5366">
+<img width="500" alt="Screenshot 2024-12-02 at 1 48 46 AM" src="https://github.com/user-attachments/assets/aac8b5e0-8785-4a2b-a3d7-b07fbdbf5366">
 
  
 <br><br>
 
-Current Status:
+# Current Status
 - this is the basic idea of what i'm working with. a Xilinx programmer is $30+ and a raspi with [XC3SPROG](https://xc3sprog.sourceforge.net/hardware.php) is $5
 - the raspi will have to live on this device and use the jtag header to program the virtex5 on each use or powerup.
-- There is a lot of I/O, but theres nothing else. no ram, no EPROM, no flash.
+- There is a lot of I/O, but there's nothing else. no ram, no EPROM, no flash.
 ![rough_IDEA](https://github.com/user-attachments/assets/a32fb95d-40cd-4d11-b74d-ede6dcb3908c)
 
 <br><br>
@@ -46,7 +48,7 @@ Next steps for testing:
 - reball the virtex5's using 0.6mm lead balls
  
 <br><br><br><br>
-kicad screenshots of the various layers
+# kicad screenshots of each layer
 <br><br>
 
 <img width="895" alt="Screenshot 2024-10-20 at 9 57 44 PM" src="https://github.com/user-attachments/assets/5237cbdb-3e79-46d2-b88a-ed134af67141">
@@ -58,18 +60,21 @@ headers for buck converters at the top of the board
 
 Top Layer:
 
-<img width="938" alt="Screenshot 2024-10-20 at 9 54 24 PM" src="https://github.com/user-attachments/assets/4c1df15d-8473-48cd-8a6b-9347bee68008">
+<img width="994" alt="Screenshot 2024-10-20 at 9 54 24 PM" src="https://github.com/user-attachments/assets/4c1df15d-8473-48cd-8a6b-9347bee68008">
 
 2nd Layer:
 
-<img width="765" alt="Screenshot 2024-10-20 at 9 54 59 PM" src="https://github.com/user-attachments/assets/004f34c5-8d35-4b16-a202-3fb5f1f38904">
+<img width="994" alt="Screenshot 2024-10-20 at 9 54 59 PM" src="https://github.com/user-attachments/assets/004f34c5-8d35-4b16-a202-3fb5f1f38904">
 
 3rd Layer:
 
-<img width="761" alt="Screenshot 2024-10-20 at 9 55 11 PM" src="https://github.com/user-attachments/assets/262be93a-e25c-4354-8af1-6947c824e7b4">
+<img width="994" alt="Screenshot 2024-10-20 at 9 55 11 PM" src="https://github.com/user-attachments/assets/262be93a-e25c-4354-8af1-6947c824e7b4">
 
 4th Layer:
 
-<img width="762" alt="Screenshot 2024-10-20 at 9 55 38 PM" src="https://github.com/user-attachments/assets/24cdeef5-b592-4144-9454-00349dcb80cf">
+<img width="994" alt="Screenshot 2024-10-20 at 9 55 38 PM" src="https://github.com/user-attachments/assets/24cdeef5-b592-4144-9454-00349dcb80cf">
+
+
+
 
 
