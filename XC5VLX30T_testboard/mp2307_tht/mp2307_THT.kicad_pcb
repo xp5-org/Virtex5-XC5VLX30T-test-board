@@ -683,7 +683,7 @@
 		(at 136.856497 44.793503 45)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=1.9mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 1.9mm 0.167W length 3.6mm diameter 1.6mm")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 1.258554 -1.626346 180)
 			(layer "F.SilkS")
 			(uuid "a644ea87-fd1d-4848-9d4c-3a0a45755b67")
@@ -870,8 +870,8 @@
 		(at 157.49 52.38 -90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=1.9mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 1.9mm 0.167W length 3.6mm diameter 1.6mm")
-		(property "Reference" "R1"
-			(at 2.38 1.71 180)
+		(property "Reference" "R4"
+			(at 2.38 1.71 0)
 			(layer "F.SilkS")
 			(uuid "45f139bf-92db-473d-82d5-ee1bb327b018")
 			(effects
@@ -1057,7 +1057,7 @@
 		(at 143.05 53.6 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=1.9mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 1.9mm 0.167W length 3.6mm diameter 1.6mm")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at -0.7 -1.55 0)
 			(layer "F.SilkS")
 			(uuid "f111fa30-5c85-4d00-a6d2-6536b43b3e12")
@@ -2781,7 +2781,7 @@
 		)
 		(fp_arc
 			(start 0.3048 -2.5019)
-			(mid 0 -2.197091)
+			(mid 0 -2.19709)
 			(end -0.3048 -2.5019)
 			(stroke
 				(width 0.0254)
@@ -2924,8 +2924,8 @@
 		(at 145.15 52.25 -45)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=1.9mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 1.9mm 0.167W length 3.6mm diameter 1.6mm")
-		(property "Reference" "R3"
-			(at 3.613316 -0.176777 180)
+		(property "Reference" "R2"
+			(at 3.613316 -0.176777 360)
 			(layer "F.SilkS")
 			(uuid "cbdb5a9c-86ce-400a-b514-99cae77923c4")
 			(effects
